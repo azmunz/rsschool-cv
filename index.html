@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>CV AnhelinaVr</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Yuri Nesterov</h1>
+        <img id="my-photo" src="MyPhoto.jpg" width="250" height="250" alt="MyPhoto">
+        <div id="contact">
+            <h2>Contact Info</h2>
+            <ul>
+                <li> <b>phone:</b> +380509705872</li>
+                <li> <b>e-mail:</b> <a href="mailto:azmun.ra@gmail.com">azmun.ra@gmail.com</a></li>
+                <li> <b>telegram:</b> <a href="https://t.me/Azmun" target="_blank">@Azmun</a></li>
+            </ul>
+        </div>
+    </header>
+    <br>
+    <hr>
+    <section>
+        <h2>Summary</h2>
+        <p>Hello! My name is Yuri. I am a beginner programmer from Donetsk. I study HTML, CSS and JavaScript. I want to connect my life with programming.</p>
+    </section>
+    <hr>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Git basics</li>
+        </ul>
+    </section>
+    <hr>
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Donetsk National Technical University, Engineering mechanics</strong></p>
+        </section>
+    <hr>
+    <section id="code">
+        <h2>Code examples</h2>
+        <pre>
+            let input = document.createElement("input");
+            input.addEventListener("focusout", (event) => {
+              let input = event.target;
+              let p = document.createElement("p");
+              p.innerText = input.value;
+              p.classList.add("header-value");
+              input.replaceWith(p);
+            });
+        </pre>
+        </section>
+    <hr>
+    <section>
+        <h2>English level: Pre-Intermediate A2</h2>
+    </section>
+</body>
+
+</html>
