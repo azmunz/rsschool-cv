@@ -38,3 +38,5 @@
       input.replaceWith(p); // заменяем инпут параграфом
     });
 ```
+
+***English level: Pre-Intermediate A2***
